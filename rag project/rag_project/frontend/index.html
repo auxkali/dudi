@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production RAG System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Production RAG System</h1>
+        
+        <div class="upload-section">
+            <h2>Upload PDF</h2>
+            <input type="file" id="pdf-upload" accept=".pdf">
+            <button id="upload-btn">Upload</button>
+            <p id="upload-status"></p>
+        </div>
+        
+        <div class="chat-section">
+            <h2>Chat with Documents</h2>
+            <div id="chat-history" class="chat-history"></div>
+            <div class="input-area">
+                <input type="text" id="query-input" placeholder="Ask a question about the documents...">
+                <button id="query-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

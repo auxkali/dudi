@@ -1,5 +1,0 @@
-/data
-/language-check-1.0
-*.pkl
-*.model
-xgb_word2vec_model
